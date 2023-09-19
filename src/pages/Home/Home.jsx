@@ -102,7 +102,7 @@ The company focuses on the followingmain areas:
                         </ul>
                 </div>
                 <div className="flex items-start md:flex-row-reverse justify-between flex-col gap-5">
-                <div className="flex flex-col gap-2">
+                {/*<div className="flex flex-col gap-2">
                     <div className="flex flex-row gap-2">
                     <p className="text-slate-50 font-bold text-[25px">20</p>
                     <span className="w-[2px] text-slate-200 bg-slate-400  "> </span>
@@ -113,7 +113,7 @@ The company focuses on the followingmain areas:
                     <span className="w-[2px] text-slate-200 bg-slate-400  "> </span>
                             <p className="text-slate-50 text-[15px] font-semibold capitalize md:text-[18px]"> Country User in the World</p>
                         </div>
-                    </div>
+</div>*/}
                     <ul className="flex-col flex gap-2">
                 <h1 className="font-bold text-white uppercase text-[15px] md:text-[20px]">Contact information</h1>
                       
