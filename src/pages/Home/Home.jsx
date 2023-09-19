@@ -9,7 +9,7 @@ export const Home = () => {
     return <div className="bg-slate-900 overflow-x-hidden  min-h-[100vh]">
         <div className="flex items-center px-[20px] bg-slate-900 shadow-2xl justify-around">
             <a href="" >
-                <h1 className="uppercase text-slate-50 font-bold text-[20px]">Canoe</h1>
+                <h1 className="uppercase text-slate-50 font-bold text-[30px]">Canoe</h1>
                 </a>
                 <img className="max-w-[200px]" src={logo} alt="" />
         </div>
@@ -21,13 +21,13 @@ export const Home = () => {
             </div>
             <div className="lg:col-span-2 items-start flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-1">
-                    <h1 className="font-bold text-white  text-[12px] md:text-[15px] uppercase">Dedicatedtoserveour customers</h1>
+                    <h1 className="font-bold text-white  text-[12px] md:text-[15px] uppercase">Dedicated to serve our customers</h1>
                     <p className="text-slate-300 font-semibold  text-[12px] md:text-[15px]">
 Canoe Development Holdings LLC, is a United States Limited Liability Company global enterprise
 dedicated to the design, implementation and execution of small and large-scale projects in
 emerging markets. In collaboration with local governments, private customers, local authorities
 and a network of associated companies, Canoe puts at the disposal of its projects the knowhow,
-experience and managerialskillsrequired for their successful completion.
+experience and managerial skills required for their successful completion.
 Backed by a team of highly professional individuals and years of expertise in a variety of
 turnkey projects, Canoe endeavors to provide innovative and integrated human-centered
 solutions that preserve the diversity of the populations they assist</p>
