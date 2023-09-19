@@ -47,7 +47,7 @@ The company focuses on the followingmain areas:
                        
                         <li className="flex flex-row gap-2 items-center">
                                 <GiCheckMark className="text-slate-50 text-[20px]" />
-                                <span className="text-slate-300 text-[15px] md:text-[18px] ">Airline Industr</span>
+                                <span className="text-slate-300 text-[15px] md:text-[18px] ">Airline Industry</span>
                         </li>
                         <li className="flex flex-row gap-2 items-center">
                                 <GiCheckMark className="text-slate-50 text-[20px]" />
