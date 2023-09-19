@@ -3,6 +3,8 @@ import logo from '../../assets/logo.png';
 import heroImg from '../../assets/heroImg.png';
 import { TbPointFilled } from 'react-icons/tb';
 import { GiCheckMark } from 'react-icons/gi';
+import { AiOutlineMail, AiFillPhone } from 'react-icons/ai';
+import {HiLocationMarker} from 'react-icons/hi'
 export const Home = () => {
     return <div className="bg-slate-900 overflow-x-hidden  min-h-[100vh]">
         <div className="flex items-center px-[20px] bg-slate-900 shadow-2xl justify-around">
@@ -17,7 +19,7 @@ export const Home = () => {
                 <h1 className="md:text-[25px] text-center text-[20px] font-bold upperacse text-slate-50">Sustainable Projects for Sustainable Growt</h1>
                 <img src={heroImg} alt="" />
             </div>
-            <div className="lg:col-span-2 flex flex-col gap-[30px]">
+            <div className="lg:col-span-2 items-start flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-1">
                     <h1 className="font-bold text-white  text-[12px] md:text-[15px] uppercase">Dedicatedtoserveour customers</h1>
                     <p className="text-slate-300 font-semibold  text-[12px] md:text-[15px]">
@@ -98,8 +100,9 @@ The company focuses on the followingmain areas:
                         </li>
                         
                         </ul>
-                    </div>
-                    <div className="flex flex-col gap-2">
+                </div>
+                <div className="flex items-start md:flex-row-reverse justify-between flex-col gap-5">
+                <div className="flex flex-col gap-2">
                     <div className="flex flex-row gap-2">
                     <p className="text-slate-50 font-bold text-[25px">20</p>
                     <span className="w-[2px] text-slate-200 bg-slate-400  "> </span>
@@ -111,6 +114,25 @@ The company focuses on the followingmain areas:
                             <p className="text-slate-50 text-[15px] font-semibold capitalize md:text-[18px]"> Country User in the World</p>
                         </div>
                     </div>
+                    <ul className="flex-col flex gap-2">
+                <h1 className="font-bold text-white uppercase text-[15px] md:text-[20px]">Contact information</h1>
+                      
+                        <li className="flex flex-row gap-2 items-center">
+                                <AiOutlineMail className="text-slate-900 bg-slate-50 p-1 rounded-full  text-[20px]" />
+                                <span className="text-slate-300 text-[15px] md:text-[18px] ">canoe@gmail.com</span>
+                        </li>
+                        <li className="flex flex-row gap-2 items-center">
+                                <AiFillPhone className="text-slate-900 bg-slate-50 p-1 rounded-full text-[20px]" />
+                                <span className="text-slate-300 text-[15px] md:text-[18px] ">+234 908 7654 763 
+</span>
+                            </li>
+                            <li className="flex flex-row gap-2 items-center">
+                                <HiLocationMarker className="text-slate-900 bg-slate-50 p-1 rounded-full text-[20px]" />
+                                <span className="text-slate-300 text-[15px] md:text-[18px] ">United State Of America USA, Nigeria</span>
+                        </li>
+                        
+                        </ul>
+                </div>
                 </div>
             </div>
         </div>
