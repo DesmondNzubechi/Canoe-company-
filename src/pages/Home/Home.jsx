@@ -16,7 +16,7 @@ export const Home = () => {
 
         <div className="pt-[100px] gap-[50px] pb-[50px] px-[20px] items-start grid grid-cols-1 lg:grid-cols-3">
             <div className="flex flex-col gap-1 items-center justify-center">
-                <h1 className="md:text-[25px] text-center text-[20px] font-bold upperacse text-slate-50">Sustainable Projects for Sustainable Growt</h1>
+                <h1 className="md:text-[25px] text-center text-[20px] font-bold upperacse text-slate-50">Sustainable Projects for Sustainable Growth</h1>
                 <img src={heroImg} alt="" />
             </div>
             <div className="lg:col-span-2 items-start flex flex-col gap-[30px]">
