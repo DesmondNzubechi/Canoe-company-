@@ -1,7 +1,7 @@
 import React from "react";
 import logo from '../../assets/logo.png';
 import heroImg from '../../assets/heroImg.png';
-import { ImCheckmark } from 'react-icons/im';
+import { TbPointFilled } from 'react-icons/tb';
 import { GiCheckMark } from 'react-icons/gi';
 export const Home = () => {
     return <div className="bg-slate-900 overflow-x-hidden  min-h-[100vh]">
@@ -19,8 +19,8 @@ export const Home = () => {
             </div>
             <div className="lg:col-span-2 flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-1">
-                    <h1 className="font-bold text-slate-50  text-[12px] md:text-[15px] uppercase">Dedicatedtoserveour customers</h1>
-                    <p className="text-slate-50 font-semibold  text-[12px] md:text-[15px]">
+                    <h1 className="font-bold text-white  text-[12px] md:text-[15px] uppercase">Dedicatedtoserveour customers</h1>
+                    <p className="text-slate-300 font-semibold  text-[12px] md:text-[15px]">
 Canoe Development Holdings LLC, is a United States Limited Liability Company global enterprise
 dedicated to the design, implementation and execution of small and large-scale projects in
 emerging markets. In collaboration with local governments, private customers, local authorities
@@ -40,7 +40,7 @@ The company focuses on the followingmain areas:
   
                     </p>
                     </div>
-                    <div>
+                    <div className="flex flex-col gap-5 md:flex-row">
                         <ul className="flex gap-1 flex-col items-start">
                        
                         <li className="flex flex-row gap-2 items-center">
@@ -74,6 +74,28 @@ The company focuses on the followingmain areas:
                                 <span className="text-slate-300 text-[15px] md:text-[18px] ">Construction</span>
                         </li>
                        
+                        
+                    </ul>
+                    <ul className="flex gap-1 flex-col items-start">
+                       <h1 className="font-bold text-white uppercase text-[15px] md:text-[20px]">Companies affiliated with canoe</h1>
+                        <li className="flex flex-row gap-2 items-center">
+                                <TbPointFilled className="text-slate-50 text-[20px]" />
+                                <span className="text-slate-300 text-[15px] md:text-[18px] ">World Mega Turnkey Project Funding LLC
+</span>
+                        </li>
+                        <li className="flex flex-row gap-2 items-center">
+                                <TbPointFilled className="text-slate-50 text-[20px]" />
+                                <span className="text-slate-300 text-[15px] md:text-[18px] ">WestCoast Airlines</span>
+                        </li>
+                        <li className="flex flex-row gap-2 items-center">
+                                <TbPointFilled className="text-slate-50 text-[20px]" />
+                                <span className="text-slate-300 text-[15px] md:text-[18px] ">Marak Transportation 
+</span>
+                            </li>
+                            <li className="flex flex-row gap-2 items-center">
+                                <TbPointFilled className="text-slate-50 text-[20px]" />
+                                <span className="text-slate-300 text-[15px] md:text-[18px] ">Bilsha Technologies</span>
+                        </li>
                         
                         </ul>
                     </div>
