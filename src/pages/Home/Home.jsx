@@ -119,16 +119,16 @@ The company focuses on the followingmain areas:
                       
                         <li className="flex flex-row gap-2 items-center">
                                 <AiOutlineMail className="text-slate-900 bg-slate-50 p-1 rounded-full  text-[20px]" />
-                                <span className="text-slate-700 text-[15px] md:text-[18px] ">canoe@gmail.com</span>
+                                <span className="text-slate-700 text-[15px] md:text-[18px] "><a href="mailto:Chris.Isaac@cdh.com">Chris.Isaac@cdh.com</a></span>
                         </li>
                         <li className="flex flex-row gap-2 items-center">
                                 <AiFillPhone className="text-slate-900 bg-slate-50 p-1 rounded-full text-[20px]" />
-                                <span className="text-slate-700 text-[15px] md:text-[18px] ">+234 908 7654 763 
+                                <span className="text-slate-700 text-[15px] md:text-[18px] "><a href="tel:+19515411953">+1 (951) 5411953</a>
 </span>
                             </li>
                             <li className="flex flex-row gap-2 items-center">
                                 <HiLocationMarker className="text-slate-900 bg-slate-50 p-1 rounded-full text-[20px]" />
-                                <span className="text-slate-700 text-[15px] md:text-[18px] ">United State Of America USA, Nigeria</span>
+                                <span className="text-slate-700 text-[15px] capitalize md:text-[18px] ">United States of America</span>
                         </li>
                         
                         </ul>
