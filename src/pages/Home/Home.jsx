@@ -128,7 +128,7 @@ The company focuses on the followingmain areas:
                             </li>
                             <li className="flex flex-row gap-2 items-center">
                                 <HiLocationMarker className="text-slate-900 bg-slate-50 p-1 rounded-full text-[20px]" />
-                                <span className="text-slate-700 text-[15px] capitalize md:text-[18px] ">United States of America</span>
+                                <span className="text-slate-700 text-[15px] md:text-[18px] ">United States of America</span>
                         </li>
                         
                         </ul>
