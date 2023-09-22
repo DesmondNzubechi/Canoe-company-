@@ -15,13 +15,16 @@ export const Home = () => {
         </div>
 
         <div className="pt-[100px] gap-[50px] pb-[50px] px-[20px] items-start grid grid-cols-1 lg:grid-cols-3">
-            <div className="flex flex-col gap-1 items-center justify-center">
+                    <div className="flex flex-col gap-2 items-center justify-center">
                 <h1 className="md:text-[25px] text-center text-[20px] font-bold upperacse text-slate-900">Sustainable Projects for Sustainable Growth</h1>
                 <img src={heroImg} alt="" />
             </div>
             <div className="lg:col-span-2 items-start flex flex-col gap-[30px]">
-                <div className="flex flex-col gap-1">
-                    <h1 className="font-bold text-black  text-[12px] md:text-[15px] uppercase">Dedicated to serve our customers</h1>
+                            <div className="flex flex-col gap-1">
+                                    
+                                   
+                                    <h1 className="font-bold text-black  text-[12px] md:text-[15px] uppercase">Canoe Development Holdings  is a United States of America registered limited Liability Company. 
+</h1>
                     <p className="text-slate-700 font-semibold  text-[12px] md:text-[15px]">
 Canoe Development Holdings LLC, is a United States Limited Liability Company global enterprise
 dedicated to the design, implementation and execution of small and large-scale projects in
@@ -119,7 +122,7 @@ The company focuses on the followingmain areas:
                       
                         <li className="flex flex-row gap-2 items-center">
                                 <AiOutlineMail className="text-slate-900 bg-slate-50 p-1 rounded-full  text-[20px]" />
-                                <span className="text-slate-700 text-[15px] md:text-[18px] "><a href="mailto:Chris.Isaac@cdh.com">Chris.Isaac@cdh.com</a></span>
+                                <span className="text-slate-700 text-[15px] md:text-[18px] "><a href="mailto:info@cdhi.com">info@cdhi.com</a></span>
                         </li>
                         <li className="flex flex-row gap-2 items-center">
                                 <AiFillPhone className="text-slate-900 bg-slate-50 p-1 rounded-full text-[20px]" />
