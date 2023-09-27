@@ -1,6 +1,6 @@
 import React from "react";
 import logo from '../../assets/logo.png';
-import heroImg from '../../assets/heroImg.png';
+import heroImg from '../../assets/canoeC.jpg';
 import { TbPointFilled } from 'react-icons/tb';
 import { GiCheckMark } from 'react-icons/gi';
 import { AiOutlineMail, AiFillPhone } from 'react-icons/ai';
@@ -17,7 +17,7 @@ export const Home = () => {
         <div className="pt-[100px] gap-[50px] pb-[50px] px-[20px] items-start grid grid-cols-1 lg:grid-cols-3">
                     <div className="flex flex-col gap-2 items-center justify-center">
                 <h1 className="md:text-[25px] text-center text-[20px] font-bold upperacse text-slate-900">Sustainable Projects for Sustainable Growth</h1>
-                <img src={heroImg} alt="" />
+                <img className="rounded" src={heroImg} alt="" />
             </div>
             <div className="lg:col-span-2 items-start flex flex-col gap-[30px]">
                             <div className="flex flex-col gap-1">
@@ -32,7 +32,7 @@ In collaboration with all spheres of government as the private sectors, Canoe ma
 </p>
                 </div>
                 <div className="flex flex-row gap-5">
-                    <span className="w-[3px] text-slate-200 bg-slate-300  "></span>
+                    <span className="w-[3px] text-slate-500 bg-slate-500  "></span>
                     <p className="text-slate-700 font-[400]  text-[12px] md:text-[15px]">
                     Canoe’s solutions are adapted to the particular and unique needs, resources and budget of each
 population. It is our ability to face even the most insurmountable challenges that enables us to
