@@ -22,11 +22,11 @@ export const Home = () => {
             <div className="lg:col-span-2 items-start flex flex-col gap-[30px]">
                             <div className="flex flex-col gap-1">
                                     
-                                   
+                                 {/*  
                                     <h1 className="font-bold text-black  text-[12px] md:text-[15px] uppercase">Canoe Development Holdings  is a United States of America registered limited Liability Company. 
-</h1>
+</h1>*/}
                     <p className="text-slate-700 font-semibold  text-[12px] md:text-[15px]">
-                    Canoe development holding company LLC, is a United States of America registered limited liability company. A global enterprise dedicated to the design, implementation, and execution of small, medium and large-scale projects in emerging markets.
+                   <strong>Canoe Development Holdings company LLC</strong> , is a United States of America registered limited liability company. A global enterprise dedicated to the design, implementation, and execution of small, medium and large-scale projects in emerging markets.
 In collaboration with all spheres of government as the private sectors, Canoe maximizes its signature customer centric approach to projects, encourage adaptations, value addition and customer satisfaction, communication backed in a team of highly skilled professional with more than thirty years combined experience and expertise in a variety of training projects. Canoe endeavors to provide innovative as a human centered solutions that preserve the diversity of its clients.
 
 </p>
@@ -86,7 +86,7 @@ The company focuses on the followingmain areas:
                         </li>
                         <li className="flex flex-row gap-2 items-center">
                                 <TbPointFilled className="text-slate-900 text-[20px]" />
-                                <span className="text-slate-700 text-[15px] md:text-[18px] ">WestCoast Airlines</span>
+                                <span className="text-slate-700 text-[15px] md:text-[18px] ">WestCoast Airlines</span>
                         </li>
                         <li className="flex flex-row gap-2 items-center">
                                 <TbPointFilled className="text-slate-900 text-[20px]" />
@@ -118,7 +118,7 @@ The company focuses on the followingmain areas:
                       
                         <li className="flex flex-row gap-2 items-center">
                                 <AiOutlineMail className="text-slate-900 bg-slate-50 p-1 rounded-full  text-[20px]" />
-                                <span className="text-slate-700 text-[15px] md:text-[18px] "><a href="mailto:info@canoegroup.com">info@canoegroup.com</a></span>
+                                <span className="text-slate-700 text-[15px] md:text-[18px] "><a href="mailto:info@canoegroups.com">Info@canoegroups.com</a></span>
                         </li>
                         <li className="flex flex-row gap-2 items-center">
                                 <AiFillPhone className="text-slate-900 bg-slate-50 p-1 rounded-full text-[20px]" />
